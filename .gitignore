@@ -1,52 +1,30 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
+# Build artifacts
+Debug/
+Release/
+bin/
+obj/
+*.list
 *.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
+*.elf
+*.bin
 *.hex
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# IDE files (STM32CubeIDE / Eclipse)
+.settings/
+.project
+.cproject
+*.launch
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# CubeMX artifacts
+*.ioc
+!git_repo.ioc
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Other toolchains
+BUILD/
+dist/

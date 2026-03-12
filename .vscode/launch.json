@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/Debug/git_repo.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "stutil",
+            "device": "STM32F767ZI",
+            "interface": "swd",
+            "preLaunchTask": "Build STM32"
+        }
+    ]
+}
